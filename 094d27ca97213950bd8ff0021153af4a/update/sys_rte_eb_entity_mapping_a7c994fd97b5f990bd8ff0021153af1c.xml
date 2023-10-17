@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[(function() {
+    if (((input.temp.u_endpointprofile.indexOf('IP-Phone') > -1)) && !((input.temp.u_endpointprofile.indexOf('Workstation') > -1))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query>u_endpointprofileLIKEIP-Phone</encoded_query>
+        <entity_mapping_group>9236666997f9b990bd8ff0021153af5e</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>true</is_conditional>
+        <name>TempToIP Phones</name>
+        <order>200</order>
+        <source_sys_rte_eb_entity display_value="temp">5781eea197f9b990bd8ff0021153afb7</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-10 20:28:30</sys_created_on>
+        <sys_id>a7c994fd97b5f990bd8ff0021153af1c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>TempToIP Phones</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Cisco ISE Transform Map">1d816ea197f9b990bd8ff0021153afc6</sys_rte_eb_definition>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_a7c994fd97b5f990bd8ff0021153af1c</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-10 20:39:50</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="IP Phones">d3c994fd97b5f990bd8ff0021153af1a</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

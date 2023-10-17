@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_caci_cisco_ise.admin" name="x_caci_cisco_ise.admin">c14d27ca97213950bd8ff0021153af50</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-09-29 20:15:11</sys_created_on>
+        <sys_id>c54d27ca97213950bd8ff0021153af51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c14d27ca97213950bd8ff0021153af50</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_embedded_help_role_c54d27ca97213950bd8ff0021153af51</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-09-29 20:15:11</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Cisco Identity Services Engine (ISE)">5dc59698977df190bd8ff0021153af42</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Data Import Summary Log</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1900</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>./sys_progress_worker_list.do?sysparm_first_row=1&amp;sysparm_query=nameSTARTSWITHTransforming%3a^ORnameSTARTSWITHCreating+import+set%3a^GOTOname&gt;%3dcisco_ise&amp;sysparm_query_encoded=nameSTARTSWITHTransforming%3a^ORnameSTARTSWITHCreating+import+set%3a^GOTOname&gt;%3dcisco_ise&amp;sysparm_view=</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-03 18:33:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b92cbf9f972dbd50bd8ff0021153af93</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Data Import Log</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_app_module_b92cbf9f972dbd50bd8ff0021153af93</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-08 15:33:20</sys_updated_on>
+        <timeline_page/>
+        <title>Data Import Log</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

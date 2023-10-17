@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[(function() {
+    if (((input.temp.u_endpointprofile.indexOf('TV') > -1 || input.temp.u_endpointprofile.indexOf('Tivo') > -1 || input.temp.u_endpointprofile.indexOf('Chromecast') > -1 || input.temp.u_endpointprofile.indexOf('Cisco-DMP') > -1)) && !((input.temp.u_endpointprofile.indexOf('WorkCentre') > -1 || input.temp.u_endpointprofile.indexOf('JetDirect') > -1 || input.temp.u_endpointprofile.indexOf('LaserJet') > -1 || input.temp.u_endpointprofile.indexOf('Ricoh') > -1 || input.temp.u_endpointprofile.indexOf('Phaser') > -1 || input.temp.u_endpointprofile === 'Zebra' || input.temp.u_ctssecuritygroup.indexOf('Printer') > -1)) && !((input.temp.u_endpointprofile.indexOf('Camera') > -1 || input.temp.u_endpointprofile.indexOf('Axis-Device') > -1)) && !((input.temp.u_endpointprofile.indexOf('IoT') > -1)) && !((input.temp.u_endpointprofile.indexOf('Switch') > -1)) && !((input.temp.u_endpointprofile.indexOf('Router') > -1 || input.temp.u_endpointprofile.indexOf('Viptela') > -1)) && !((input.temp.u_endpointprofile.indexOf('XBOX') > -1 || input.temp.u_endpointprofile.indexOf('PlayStation') > -1 || input.temp.u_endpointprofile.indexOf('Nintendo') > -1)) && !((input.temp.u_endpointprofile.indexOf('netgear') > -1 || input.temp.u_endpointprofile.indexOf('linksys') > -1 || input.temp.u_ctssecuritygroup.indexOf('Infrastructure') > -1)) && !((input.temp.u_endpointprofile.indexOf('American-Power-Conversion-Device') > -1 || input.temp.u_endpointprofile.indexOf('UPS') > -1)) && !((input.temp.u_endpointprofile.indexOf('Access-Point') > -1 || input.temp.u_endpointprofile.endsWith('AP'))) && !((input.temp.u_endpointprofile.indexOf('IP-Phone') > -1))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query>u_endpointprofileLIKETV^ORu_endpointprofileLIKETivo^ORu_endpointprofileLIKEChromecast^ORu_endpointprofileLIKECisco-DMP</encoded_query>
+        <entity_mapping_group>8bc17dbe9725f950bd8ff0021153af4b</entity_mapping_group>
+        <ignore>true</ignore>
+        <is_conditional>true</is_conditional>
+        <name>tempToSmart Television 1</name>
+        <order>1100</order>
+        <source_sys_rte_eb_entity display_value="temp">0483957a97a1f950bd8ff0021153afa7</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-01 19:11:11</sys_created_on>
+        <sys_id>83c139fe9725f950bd8ff0021153af03</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>tempToSmart Television 1</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Cisco ISE ETL">ea73d17a97a1f950bd8ff0021153af8e</sys_rte_eb_definition>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_83c139fe9725f950bd8ff0021153af03</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-01 20:07:44</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Smart Television 1">07c139fe9725f950bd8ff0021153af01</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</application>
+        <file_path/>
+        <instance_id>c369663adbcb7b0452cec597059619b2</instance_id>
+        <instance_name>ven03091</instance_name>
+        <name>sys_rte_eb_entity_mapping_83c139fe9725f950bd8ff0021153af03</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;&lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;&lt;condition_script&gt;&lt;![CDATA[(function() {
+    if (((input.temp.u_endpointprofile.indexOf('TV') &gt; -1 || input.temp.u_endpointprofile.indexOf('Tivo') &gt; -1 || input.temp.u_endpointprofile.indexOf('Chromecast') &gt; -1 || input.temp.u_endpointprofile.indexOf('Cisco-DMP') &gt; -1)) &amp;&amp; !((input.temp.u_endpointprofile.indexOf('WorkCentre') &gt; -1 || input.temp.u_endpointprofile.indexOf('JetDirect') &gt; -1 || input.temp.u_endpointprofile.indexOf('LaserJet') &gt; -1 || input.temp.u_endpointprofile.indexOf('Ricoh') &gt; -1 || input.temp.u_endpointprofile.indexOf('Phaser') &gt; -1 || input.temp.u_endpointprofile === 'Zebra' || input.temp.u_ctssecuritygroup.indexOf('Printer') &gt; -1)) &amp;&amp; !((input.temp.u_endpointprofile.indexOf('Camera') &gt; -1 || input.temp.u_endpointprofile.indexOf('Axis-Device') &gt; -1)) &amp;&amp; !((input.temp.u_endpointprofile.indexOf('IoT') &gt; -1)) &amp;&amp; !((input.temp.u_endpointprofile.indexOf('Switch') &gt; -1)) &amp;&amp; !((input.temp.u_endpointprofile.indexOf('Router') &gt; -1 || input.temp.u_endpointprofile.indexOf('Viptela') &gt; -1)) &amp;&amp; !((input.temp.u_endpointprofile.indexOf('XBOX') &gt; -1 || input.temp.u_endpointprofile.indexOf('PlayStation') &gt; -1 || input.temp.u_endpointprofile.indexOf('Nintendo') &gt; -1)) &amp;&amp; !((input.temp.u_endpointprofile.indexOf('netgear') &gt; -1 || input.temp.u_endpointprofile.indexOf('linksys') &gt; -1 || input.temp.u_ctssecuritygroup.indexOf('Infrastructure') &gt; -1)) &amp;&amp; !((input.temp.u_endpointprofile.indexOf('American-Power-Conversion-Device') &gt; -1 || input.temp.u_endpointprofile.indexOf('UPS') &gt; -1)) &amp;&amp; !((input.temp.u_endpointprofile.indexOf('Access-Point') &gt; -1 || input.temp.u_endpointprofile.endsWith('AP'))) &amp;&amp; !((input.temp.u_endpointprofile.indexOf('IP-Phone') &gt; -1))) {
+        return true;
+    }
+    return false;
+})();]]&gt;&lt;/condition_script&gt;&lt;encoded_query&gt;u_endpointprofileLIKETV^ORu_endpointprofileLIKETivo^ORu_endpointprofileLIKEChromecast^ORu_endpointprofileLIKECisco-DMP&lt;/encoded_query&gt;&lt;entity_mapping_group&gt;8bc17dbe9725f950bd8ff0021153af4b&lt;/entity_mapping_group&gt;&lt;ignore&gt;true&lt;/ignore&gt;&lt;is_conditional&gt;true&lt;/is_conditional&gt;&lt;name&gt;tempToSmart Television 1&lt;/name&gt;&lt;order&gt;1100&lt;/order&gt;&lt;source_sys_rte_eb_entity display_value="temp"&gt;0483957a97a1f950bd8ff0021153afa7&lt;/source_sys_rte_eb_entity&gt;&lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jamie@moderncyber.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-01 19:11:11&lt;/sys_created_on&gt;&lt;sys_id&gt;83c139fe9725f950bd8ff0021153af03&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;tempToSmart Television 1&lt;/sys_name&gt;&lt;sys_package display_value="Cisco ISE" source="x_caci_cisco_ise"&gt;094d27ca97213950bd8ff0021153af4a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="Cisco ISE ETL"&gt;ea73d17a97a1f950bd8ff0021153af8e&lt;/sys_rte_eb_definition&gt;&lt;sys_scope display_value="Cisco ISE"&gt;094d27ca97213950bd8ff0021153af4a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_entity_mapping_83c139fe9725f950bd8ff0021153af03&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jamie@moderncyber.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-01 20:07:44&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_entity display_value="Smart Television 1"&gt;07c139fe9725f950bd8ff0021153af01&lt;/target_sys_rte_eb_entity&gt;&lt;/sys_rte_eb_entity_mapping&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>593809104</payload_hash>
+        <record_name>tempToSmart Television 1</record_name>
+        <reverted_from/>
+        <source>2a7fab0e97213950bd8ff0021153afba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-01 20:07:44</sys_created_on>
+        <sys_id>67be717297a5f950bd8ff0021153afd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18aecda9d000000001</sys_recorded_at>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-01 20:07:44</sys_updated_on>
+        <type>Robust Transform Engine Entity Mapping</type>
+        <update_guid>6fbe717203a5f95057f186f8e1d0a2d3</update_guid>
+        <update_guid_history>6fbe717203a5f95057f186f8e1d0a2d3:593809104,6c7ef93257a5f9508bbc9ee75c2d2464:838048554,e84e3532f1a5f950db63347c25654b67:-153652504,2f3d79bec565f95094f2e9696962d52f:355435852,498531363865f950ded4ee9ccbfdfe83:1436493351,47c139fe3925f9507ee2807ae27bc604:-180771528</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-01 20:08:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>217725ce719542809d2768c784b11000</sys_id>
+        <sys_metadata>83c139fe9725f950bd8ff0021153af03</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToSmart Television 1</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_scope_delete display_value="">5a160f9a00994784bd7e0fad91a4d110</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_83c139fe9725f950bd8ff0021153af03</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_83c139fe9725f950bd8ff0021153af03">67be717297a5f950bd8ff0021153afd4</sys_update_version>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-01 20:08:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

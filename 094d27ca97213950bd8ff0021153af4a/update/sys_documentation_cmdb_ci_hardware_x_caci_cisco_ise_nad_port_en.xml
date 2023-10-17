@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_caci_cisco_ise_nad_port" label="NAD Port" language="en" table="cmdb_ci_hardware">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_caci_cisco_ise_nad_port</element>
+            <help/>
+            <hint/>
+            <label>NAD Port</label>
+            <language>en</language>
+            <name>cmdb_ci_hardware</name>
+            <plural>NAD Ports</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-10 10:33:17</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>NAD Port</sys_name>
+            <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+            <sys_update_name>sys_documentation_cmdb_ci_hardware_x_caci_cisco_ise_nad_port_en</sys_update_name>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-10 10:33:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

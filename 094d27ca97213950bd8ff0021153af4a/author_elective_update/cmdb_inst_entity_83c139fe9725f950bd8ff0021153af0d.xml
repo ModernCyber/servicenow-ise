@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>IP Router 1</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_ci_ip_router_1</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-01 19:11:11</sys_created_on>
+        <sys_id>83c139fe9725f950bd8ff0021153af0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IP Router 1</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Cisco ISE ETL">ea73d17a97a1f950bd8ff0021153af8e</sys_rte_eb_definition>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>cmdb_inst_entity_83c139fe9725f950bd8ff0021153af0d</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-01 19:11:11</sys_updated_on>
+        <table>cmdb_ci_ip_router</table>
+    </cmdb_inst_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</application>
+        <file_path/>
+        <instance_id>c369663adbcb7b0452cec597059619b2</instance_id>
+        <instance_name>ven03091</instance_name>
+        <name>cmdb_inst_entity_83c139fe9725f950bd8ff0021153af0d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity"><cmdb_inst_entity action="INSERT_OR_UPDATE"><child_id_field/><lookup_for_entity/><name>IP Router 1</name><parent_entity/><parent_id_field/><path>cmdb_ci_ip_router_1</path><related_for_entity/><relationship_type/><sys_class_name>cmdb_inst_entity</sys_class_name><sys_created_by>jamie@moderncyber.com</sys_created_by><sys_created_on>2023-10-01 19:11:11</sys_created_on><sys_id>83c139fe9725f950bd8ff0021153af0d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IP Router 1</sys_name><sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package><sys_policy/><sys_rte_eb_definition display_value="Cisco ISE ETL">ea73d17a97a1f950bd8ff0021153af8e</sys_rte_eb_definition><sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope><sys_update_name>cmdb_inst_entity_83c139fe9725f950bd8ff0021153af0d</sys_update_name><sys_updated_by>jamie@moderncyber.com</sys_updated_by><sys_updated_on>2023-10-01 19:11:11</sys_updated_on><table>cmdb_ci_ip_router</table></cmdb_inst_entity></record_update>]]></payload>
+        <payload_hash>-1008944320</payload_hash>
+        <record_name>IP Router 1</record_name>
+        <reverted_from/>
+        <source>2a7fab0e97213950bd8ff0021153afba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-01 19:11:11</sys_created_on>
+        <sys_id>cbc139fe9725f950bd8ff0021153af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18aeca6d6730000001</sys_recorded_at>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-01 19:11:11</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>07c139fe1b25f9500fed94520cdc2b0e</update_guid>
+        <update_guid_history>07c139fe1b25f9500fed94520cdc2b0e:-1008944320</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="IP Router 1">50fe397297a5f950bd8ff0021153afc9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-01 20:08:36</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>82a2e5079e30414db1cc302bd739b6c1</sys_id>
+        <sys_metadata>83c139fe9725f950bd8ff0021153af0d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IP Router 1</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_scope_delete display_value="">5a160f9a00994784bd7e0fad91a4d110</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_83c139fe9725f950bd8ff0021153af0d</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_83c139fe9725f950bd8ff0021153af0d">cbc139fe9725f950bd8ff0021153af0e</sys_update_version>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-01 20:08:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Cisco ISE">351109be9721f950bd8ff0021153af33</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint>Cisco ISE Admin ERS &amp; pxGrid Integration Settings</hint>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Config Test</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>7</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>./x_caci_cisco_ise_cisco_ise_config_table.do?sys_id=23dde11c9779f190bd8ff0021153af8f</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-06 12:07:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb60c21897f9f190bd8ff0021153affd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ISE Integration Settings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_app_module_bb60c21897f9f190bd8ff0021153affd</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:17:24</sys_updated_on>
+        <timeline_page/>
+        <title>ISE Integration Settings</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</application>
+        <file_path/>
+        <instance_id>c369663adbcb7b0452cec597059619b2</instance_id>
+        <instance_name>ven03091</instance_name>
+        <name>sys_app_module_bb60c21897f9f190bd8ff0021153affd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Cisco ISE">351109be9721f950bd8ff0021153af33</application><assessment/><content_page/><device_type/><filter/><hint>Cisco ISE Admin ERS &amp; pxGrid Integration Settings</hint><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Config Test</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>7</order><override_menu_roles>false</override_menu_roles><query>./x_caci_cisco_ise_cisco_ise_config_table.do?sys_id=23dde11c9779f190bd8ff0021153af8f</query><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>jamie@moderncyber.com</sys_created_by><sys_created_on>2023-10-06 12:07:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bb60c21897f9f190bd8ff0021153affd</sys_id><sys_mod_count>3</sys_mod_count><sys_name>ISE Integration Settings</sys_name><sys_overrides/><sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package><sys_policy/><sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope><sys_update_name>sys_app_module_bb60c21897f9f190bd8ff0021153affd</sys_update_name><sys_updated_by>jamie@moderncyber.com</sys_updated_by><sys_updated_on>2023-10-06 12:17:24</sys_updated_on><timeline_page/><title>ISE Integration Settings</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1420103076</payload_hash>
+        <record_name>ISE Integration Settings</record_name>
+        <reverted_from/>
+        <source>2a7fab0e97213950bd8ff0021153afba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-06 12:17:24</sys_created_on>
+        <sys_id>e203821c97f9f190bd8ff0021153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b04ebcce00000001</sys_recorded_at>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:17:24</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2e03821c94f9f19080c35c4c748bde74</update_guid>
+        <update_guid_history>2e03821c94f9f19080c35c4c748bde74:-1420103076,36f146d827f9f190404bb366a743c59f:886575042,4c310a984af9f1907038372444359cc7:-959120808,dcc04a183ff9f190de0f8f075d7d685f:-1467657100</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ISE Integration Settings">4c3b0258973df190bd8ff0021153afe4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-06 12:53:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>037695dc59fd438880100c4c7c21da10</sys_id>
+        <sys_metadata>bb60c21897f9f190bd8ff0021153affd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ISE Integration Settings</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_scope_delete display_value="">5a160f9a00994784bd7e0fad91a4d110</sys_scope_delete>
+        <sys_update_name>sys_app_module_bb60c21897f9f190bd8ff0021153affd</sys_update_name>
+        <sys_update_version display_value="sys_app_module_bb60c21897f9f190bd8ff0021153affd">e203821c97f9f190bd8ff0021153af75</sys_update_version>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:53:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_caci_cisco_ise.Cisco_ISE_pxGrid_Connection_Alias</id>
+        <multiple_connections>false</multiple_connections>
+        <name>Cisco ISE pxGrid Connection Alias</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-05 22:18:05</sys_created_on>
+        <sys_id>14e2cf4c97b9b190bd8ff0021153af82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_caci_cisco_ise.Cisco_ISE_pxGrid_Connection_Alias</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_alias_14e2cf4c97b9b190bd8ff0021153af82</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-05 22:18:05</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+</record_update>

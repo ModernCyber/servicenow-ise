@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1f0fdbc8977db190bd8ff0021153af13" label="Cisco ISE Integration Settings" max_length="40" name="x_caci_cisco_ise_cisco_ise_config_table" type="collection">
+        <element label="Description" max_length="255" name="description" type="string"/>
+        <element label="ERS Admin Password" mandatory="true" max_length="255" name="ers_admin_password" type="password2"/>
+        <element label="ERS Admin Username" mandatory="true" max_length="128" name="ers_admin_username" type="string"/>
+        <element default="9060" label="ERS Port" mandatory="true" max_length="5" name="ers_port" type="string"/>
+        <element label="ISE Admin Node" mandatory="true" max_length="255" name="ise_admin_node" type="string"/>
+        <element label="ISE pxGrid Node" mandatory="true" max_length="255" name="ise_pxgrid_node" type="string"/>
+        <element label="Last Sync" max_length="40" name="last_sync" read_only="true" type="glide_date_time"/>
+        <element label="MID Server" mandatory="true" max_length="32" name="mid_server" reference="ecc_agent" type="reference"/>
+        <element display="true" label="Name" mandatory="true" max_length="64" name="name" type="string"/>
+        <element default="ServiceNow" label="pxGrid Account Name" mandatory="true" max_length="40" name="pxgrid_account_name" type="string"/>
+        <element label="pxGrid Account Password" max_length="255" name="pxgrid_account_password" type="password2"/>
+        <element label="pxGrid Account Secret" max_length="255" name="pxgrid_account_secret" type="password2"/>
+        <element default="8910" label="pxGrid Port" mandatory="true" max_length="5" name="pxgrid_port" type="string"/>
+        <element default="UNKNOWN" label="pxGrid Provisioning Status" max_length="255" name="pxgrid_provisioning_status" read_only="true" type="string"/>
+        <element default="true" label="Use Mid Server?" mandatory="true" max_length="40" name="use_mid_server" read_only="true" type="boolean"/>
+        <index name="index">
+            <element name="mid_server"/>
+        </index>
+    </element>
+</database>

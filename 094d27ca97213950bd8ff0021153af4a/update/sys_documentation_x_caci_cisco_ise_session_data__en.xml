@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Cisco ISE Sessions Staging Table" language="en" table="x_caci_cisco_ise_session_data">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Cisco ISE Sessions Staging Table</label>
+            <language>en</language>
+            <name>x_caci_cisco_ise_session_data</name>
+            <plural>Cisco ISE Sessions Staging Tables</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-01 15:18:25</sys_created_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Cisco ISE Sessions Staging Table</sys_name>
+            <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+            <sys_update_name>sys_documentation_x_caci_cisco_ise_session_data__en</sys_update_name>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-10 15:05:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

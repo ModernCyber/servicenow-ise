@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Cisco Identity Services Engine (ISE)">5dc59698977df190bd8ff0021153af42</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Cisco ISE Data Import Configuration</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sn_ihub_integration_instance</name>
+        <order>500</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>./sys_data_source.do?sys_id=c81a55ae972d7950bd8ff0021153afa2</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-01 16:23:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1dc24d329761f950bd8ff0021153afc7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Data Import Configuration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_app_module_1dc24d329761f950bd8ff0021153afc7</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-08 15:33:56</sys_updated_on>
+        <timeline_page/>
+        <title>Data Import Configuration</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</application>
+        <file_path/>
+        <instance_id>c369663adbcb7b0452cec597059619b2</instance_id>
+        <instance_name>ven03091</instance_name>
+        <name>sys_app_module_1dc24d329761f950bd8ff0021153afc7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Cisco Identity Services Engine (ISE)">5dc59698977df190bd8ff0021153af42</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Cisco ISE Data Import Configuration</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sn_ihub_integration_instance</name><order>500</order><override_menu_roles>false</override_menu_roles><query>./sys_data_source.do?sys_id=c81a55ae972d7950bd8ff0021153afa2</query><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>jamie@moderncyber.com</sys_created_by><sys_created_on>2023-10-01 16:23:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1dc24d329761f950bd8ff0021153afc7</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Data Import Configuration</sys_name><sys_overrides/><sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package><sys_policy/><sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope><sys_update_name>sys_app_module_1dc24d329761f950bd8ff0021153afc7</sys_update_name><sys_updated_by>jamie@moderncyber.com</sys_updated_by><sys_updated_on>2023-10-08 15:33:56</sys_updated_on><timeline_page/><title>Data Import Configuration</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-619611642</payload_hash>
+        <record_name>Data Import Configuration</record_name>
+        <reverted_from/>
+        <source>2a7fab0e97213950bd8ff0021153afba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-08 15:33:56</sys_created_on>
+        <sys_id>bc33c1cd97b5f590bd8ff0021153af2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b0fec73df0000001</sys_recorded_at>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-08 15:33:56</sys_updated_on>
+        <type>Module</type>
+        <update_guid>7433c1cd4db5f59010e19f4ad63bff2d</update_guid>
+        <update_guid_history>7433c1cd4db5f59010e19f4ad63bff2d:-619611642,bc03cd8d09b5f590a8b8592acecf2914:1965309309,bba69ad8c17df19073941d1a39f26938:1320557015,e7655e58277df190c7d32b78d68bcf7c:0,6c5aac6f6a21fd5053f6e3456109f9bd:366855502,666cbbdfcd2dbd50e63434d5ae383085:-667160731,e87b85fae161f950eaf6c09c57c08cb2:-386144283</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Data Import Configuration">78a69ece97b97d90bd8ff0021153af85</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-12 00:12:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>4167ec94f5614640848d4375d7940040</sys_id>
+        <sys_metadata>1dc24d329761f950bd8ff0021153afc7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data Import Configuration</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_scope_delete display_value="">5a160f9a00994784bd7e0fad91a4d110</sys_scope_delete>
+        <sys_update_name>sys_app_module_1dc24d329761f950bd8ff0021153afc7</sys_update_name>
+        <sys_update_version display_value="sys_app_module_1dc24d329761f950bd8ff0021153afc7">bc33c1cd97b5f590bd8ff0021153af2d</sys_update_version>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-12 00:12:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

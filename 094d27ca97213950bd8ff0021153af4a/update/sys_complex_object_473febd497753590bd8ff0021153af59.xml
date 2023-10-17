@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD833febd483753590d9ce4c3a93c8cf59</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>094d27ca97213950bd8ff0021153af4a</scope_name>
+        <serialized_content>{"FlowDesigner:FD833febd483753590d9ce4c3a93c8cf59":{"secret":"String","secret.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"secret\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"cf041eb2-3839-436a-be8d-f34866c00826\"}"}},"FlowDesigner:FD833febd483753590d9ce4c3a93c8cf59.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"ff07a22a-5c96-4984-8f7e-c66ab0d174fb\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD833febd483753590d9ce4c3a93c8cf59\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-06 20:10:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>473febd497753590bd8ff0021153af59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD833febd483753590d9ce4c3a93c8cf59</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_complex_object_473febd497753590bd8ff0021153af59</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-06 20:10:07</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

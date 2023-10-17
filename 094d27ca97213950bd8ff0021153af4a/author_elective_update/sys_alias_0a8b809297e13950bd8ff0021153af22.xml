@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_caci_cisco_ise.Cisco_ISE_pxGrid_Credential_Alias</id>
+        <multiple_connections>false</multiple_connections>
+        <name>Cisco ISE pxGrid Credential Alias</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-09-29 22:27:34</sys_created_on>
+        <sys_id>0a8b809297e13950bd8ff0021153af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_caci_cisco_ise.Cisco_ISE_pxGrid_Credential_Alias</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_alias_0a8b809297e13950bd8ff0021153af22</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:27:34</sys_updated_on>
+        <type>credential</type>
+    </sys_alias>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</application>
+        <file_path/>
+        <instance_id>c369663adbcb7b0452cec597059619b2</instance_id>
+        <instance_name>ven03091</instance_name>
+        <name>sys_alias_0a8b809297e13950bd8ff0021153af22</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>http_connection</connection_type><id>x_caci_cisco_ise.Cisco_ISE_pxGrid_Credential_Alias</id><multiple_connections>false</multiple_connections><name>Cisco ISE pxGrid Credential Alias</name><parent/><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>jamie@moderncyber.com</sys_created_by><sys_created_on>2023-09-29 22:27:34</sys_created_on><sys_id>0a8b809297e13950bd8ff0021153af22</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_caci_cisco_ise.Cisco_ISE_pxGrid_Credential_Alias</sys_name><sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package><sys_policy/><sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope><sys_update_name>sys_alias_0a8b809297e13950bd8ff0021153af22</sys_update_name><sys_updated_by>jamie@moderncyber.com</sys_updated_by><sys_updated_on>2023-09-29 22:27:34</sys_updated_on><type>credential</type></sys_alias></record_update>]]></payload>
+        <payload_hash>1597709035</payload_hash>
+        <record_name>x_caci_cisco_ise.Cisco_ISE_pxGrid_Credential_Alias</record_name>
+        <reverted_from/>
+        <source>2a7fab0e97213950bd8ff0021153afba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-09-29 22:27:34</sys_created_on>
+        <sys_id>549bc41297e13950bd8ff0021153af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ae30deb750000001</sys_recorded_at>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:27:34</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>9c9bc41281e13950cecc0efd5e04c17b</update_guid>
+        <update_guid_history>9c9bc41281e13950cecc0efd5e04c17b:1597709035</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-12 00:35:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>ce06d9a9075f459696807fbf0d8d2544</sys_id>
+        <sys_metadata>0a8b809297e13950bd8ff0021153af22</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_caci_cisco_ise.Cisco_ISE_pxGrid_Credential_Alias</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_scope_delete display_value="">5a160f9a00994784bd7e0fad91a4d110</sys_scope_delete>
+        <sys_update_name>sys_alias_0a8b809297e13950bd8ff0021153af22</sys_update_name>
+        <sys_update_version display_value="sys_alias_0a8b809297e13950bd8ff0021153af22">549bc41297e13950bd8ff0021153af7c</sys_update_version>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-12 00:35:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

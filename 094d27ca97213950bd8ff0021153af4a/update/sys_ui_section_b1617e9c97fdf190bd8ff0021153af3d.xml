@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Misc" section_id="b1617e9c97fdf190bd8ff0021153af3d" sys_domain="global" table="x_caci_cisco_ise_session_data" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_identitysourceportfirst</element>
+            <position>0</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-06 15:39:59</sys_created_on>
+            <sys_id>4a617e9c97fdf190bd8ff0021153afbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Misc" display_value="Misc" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">b1617e9c97fdf190bd8ff0021153af3d</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-06 15:39:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_identitysourceportstart</element>
+            <position>1</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-06 15:39:59</sys_created_on>
+            <sys_id>4e617e9c97fdf190bd8ff0021153afbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Misc" display_value="Misc" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">b1617e9c97fdf190bd8ff0021153af3d</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-06 15:39:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_identitysourceportend</element>
+            <position>2</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-06 15:39:59</sys_created_on>
+            <sys_id>42617e9c97fdf190bd8ff0021153afbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Misc" display_value="Misc" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">b1617e9c97fdf190bd8ff0021153af3d</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-06 15:39:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Misc</caption>
+            <header>false</header>
+            <name>x_caci_cisco_ise_session_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1617e9c97fdf190bd8ff0021153af3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_caci_cisco_ise_session_data</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+            <sys_update_name>sys_ui_section_b1617e9c97fdf190bd8ff0021153af3d</sys_update_name>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

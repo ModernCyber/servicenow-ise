@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_split_operation">
+    <sys_rte_eb_split_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script/>
+        <is_conditional>false</is_conditional>
+        <name>Split - u_timestamp</name>
+        <operation_group/>
+        <order>400</order>
+        <source_sys_rte_eb_field display_value="u_timestamp">6c83d57a97a1f950bd8ff0021153afc1</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <splitting_string>T</splitting_string>
+        <sys_class_name>sys_rte_eb_split_operation</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-01 17:46:54</sys_created_on>
+        <sys_id>d08ed5f697e1f950bd8ff0021153af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Split - u_timestamp</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Cisco ISE ETL">ea73d17a97a1f950bd8ff0021153af8e</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">0483957a97a1f950bd8ff0021153afa7</sys_rte_eb_entity>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_rte_eb_split_operation_d08ed5f697e1f950bd8ff0021153af92</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-01 17:46:54</sys_updated_on>
+        <target_sys_rte_eb_field/>
+        <target_sys_rte_eb_fields>908ed5f697e1f950bd8ff0021153af8d,508ed5f697e1f950bd8ff0021153af90</target_sys_rte_eb_fields>
+        <type display_value="Split">9985ae0973200010011e3e2dfef6a7de</type>
+    </sys_rte_eb_split_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</application>
+        <file_path/>
+        <instance_id>c369663adbcb7b0452cec597059619b2</instance_id>
+        <instance_name>ven03091</instance_name>
+        <name>sys_rte_eb_split_operation_d08ed5f697e1f950bd8ff0021153af92</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_split_operation"><sys_rte_eb_split_operation action="INSERT_OR_UPDATE"><conditional_fields/><conditional_script/><is_conditional>false</is_conditional><name>Split - u_timestamp</name><operation_group/><order>400</order><source_sys_rte_eb_field display_value="u_timestamp">6c83d57a97a1f950bd8ff0021153afc1</source_sys_rte_eb_field><source_sys_rte_eb_fields/><splitting_string>T</splitting_string><sys_class_name>sys_rte_eb_split_operation</sys_class_name><sys_created_by>jamie@moderncyber.com</sys_created_by><sys_created_on>2023-10-01 17:46:54</sys_created_on><sys_id>d08ed5f697e1f950bd8ff0021153af92</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Split - u_timestamp</sys_name><sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package><sys_policy/><sys_rte_eb_definition display_value="Cisco ISE ETL">ea73d17a97a1f950bd8ff0021153af8e</sys_rte_eb_definition><sys_rte_eb_entity display_value="temp">0483957a97a1f950bd8ff0021153afa7</sys_rte_eb_entity><sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope><sys_update_name>sys_rte_eb_split_operation_d08ed5f697e1f950bd8ff0021153af92</sys_update_name><sys_updated_by>jamie@moderncyber.com</sys_updated_by><sys_updated_on>2023-10-01 17:46:54</sys_updated_on><target_sys_rte_eb_field/><target_sys_rte_eb_fields>908ed5f697e1f950bd8ff0021153af8d,508ed5f697e1f950bd8ff0021153af90</target_sys_rte_eb_fields><type display_value="Split">9985ae0973200010011e3e2dfef6a7de</type></sys_rte_eb_split_operation></record_update>]]></payload>
+        <payload_hash>-1488356003</payload_hash>
+        <record_name>Split - u_timestamp</record_name>
+        <reverted_from/>
+        <source>2a7fab0e97213950bd8ff0021153afba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-01 17:46:54</sys_created_on>
+        <sys_id>988ed5f697e1f950bd8ff0021153af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18aec59ac850000001</sys_recorded_at>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-01 17:46:54</sys_updated_on>
+        <type>Robust Transform Engine Entity Split Ope</type>
+        <update_guid>d08ed5f6e0e1f9500c6106ec8bc30e94</update_guid>
+        <update_guid_history>d08ed5f6e0e1f9500c6106ec8bc30e94:-1488356003</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-10 11:32:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_split_operation">sys_rte_eb_split_operation</sys_db_object>
+        <sys_id>761a835cfc274006a5bc4976e14af624</sys_id>
+        <sys_metadata>d08ed5f697e1f950bd8ff0021153af92</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Split - u_timestamp</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_scope_delete display_value="">5a160f9a00994784bd7e0fad91a4d110</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_split_operation_d08ed5f697e1f950bd8ff0021153af92</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_split_operation_d08ed5f697e1f950bd8ff0021153af92">988ed5f697e1f950bd8ff0021153af94</sys_update_version>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-10 11:32:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

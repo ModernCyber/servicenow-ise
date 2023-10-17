@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity display_value="Printer 1">07c17dbe9725f950bd8ff0021153af4c</lookup_for_entity>
+        <name>Network Adapter 2</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_ci_network_adapter_2</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-01 19:22:44</sys_created_on>
+        <sys_id>5874b9b29765f950bd8ff0021153af63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network Adapter 2</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Cisco ISE ETL">ea73d17a97a1f950bd8ff0021153af8e</sys_rte_eb_definition>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>cmdb_inst_entity_5874b9b29765f950bd8ff0021153af63</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-01 19:22:44</sys_updated_on>
+        <table>cmdb_ci_network_adapter</table>
+    </cmdb_inst_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</application>
+        <file_path/>
+        <instance_id>c369663adbcb7b0452cec597059619b2</instance_id>
+        <instance_name>ven03091</instance_name>
+        <name>cmdb_inst_entity_5874b9b29765f950bd8ff0021153af63</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity"><cmdb_inst_entity action="INSERT_OR_UPDATE"><child_id_field/><lookup_for_entity display_value="Printer 1">07c17dbe9725f950bd8ff0021153af4c</lookup_for_entity><name>Network Adapter 2</name><parent_entity/><parent_id_field/><path>cmdb_ci_network_adapter_2</path><related_for_entity/><relationship_type/><sys_class_name>cmdb_inst_entity</sys_class_name><sys_created_by>jamie@moderncyber.com</sys_created_by><sys_created_on>2023-10-01 19:22:44</sys_created_on><sys_id>5874b9b29765f950bd8ff0021153af63</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Network Adapter 2</sys_name><sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package><sys_policy/><sys_rte_eb_definition display_value="Cisco ISE ETL">ea73d17a97a1f950bd8ff0021153af8e</sys_rte_eb_definition><sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope><sys_update_name>cmdb_inst_entity_5874b9b29765f950bd8ff0021153af63</sys_update_name><sys_updated_by>jamie@moderncyber.com</sys_updated_by><sys_updated_on>2023-10-01 19:22:44</sys_updated_on><table>cmdb_ci_network_adapter</table></cmdb_inst_entity></record_update>]]></payload>
+        <payload_hash>-590327957</payload_hash>
+        <record_name>Network Adapter 2</record_name>
+        <reverted_from/>
+        <source>2a7fab0e97213950bd8ff0021153afba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-01 19:22:44</sys_created_on>
+        <sys_id>1874b9b29765f950bd8ff0021153af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18aecb169130000001</sys_recorded_at>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-01 19:22:44</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>5074b9b22165f9500f76f070434e0265</update_guid>
+        <update_guid_history>5074b9b22165f9500f76f070434e0265:-590327957</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Network Adapter 2">bfeef57297a5f950bd8ff0021153afde</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-01 20:08:35</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>b2ade42bc6634cfbae8fe06c2f8bb959</sys_id>
+        <sys_metadata>5874b9b29765f950bd8ff0021153af63</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network Adapter 2</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_scope_delete display_value="">5a160f9a00994784bd7e0fad91a4d110</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_5874b9b29765f950bd8ff0021153af63</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_5874b9b29765f950bd8ff0021153af63">1874b9b29765f950bd8ff0021153af65</sys_update_version>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-01 20:08:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

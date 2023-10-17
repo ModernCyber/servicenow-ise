@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>cisco_ise_devices</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-11 20:16:26</sys_created_on>
+        <sys_id>98a0e50a97757d90bd8ff0021153afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cisco ISE Devices</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_ui_view_98a0e50a97757d90bd8ff0021153afaf</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-11 20:16:26</sys_updated_on>
+        <title>Cisco ISE Devices</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

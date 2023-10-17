@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="INSERT_OR_UPDATE">
+        <batch_size>1000</batch_size>
+        <category/>
+        <connection_alias/>
+        <connection_override_last_success_time/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url/>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <data_in_single_column>false</data_in_single_column>
+        <data_loader><![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time) {
+
+     // Add your code here to insert data to import_set_table
+
+})(import_set_table, data_source, import_log, last_success_import_time);]]></data_loader>
+        <data_stream_action/>
+        <data_stream_action_inputs/>
+        <data_stream_connection_alias/>
+        <database_name/>
+        <database_port/>
+        <discard_arrays>false</discard_arrays>
+        <expand_node_children>false</expand_node_children>
+        <file_path/>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>JSON</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label/>
+        <import_set_table_name>x_caci_cisco_ise_session_data</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server/>
+        <jdbc_user_name/>
+        <jpath_root_node>/sessions/sessions</jpath_root_node>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <last_success_import_time>2023-10-01 15:18:23</last_success_import_time>
+        <ldap_target/>
+        <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
+        <limit/>
+        <maximum_rows/>
+        <mid_server/>
+        <name>Cisco ISE pxGrid Session Data</name>
+        <offset>0</offset>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <parsing_script><![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"
+// The function uses result variable to return parse result back. 
+(function(line,lineNumber,result) {
+	// add code here
+})(line,lineNumber,result);]]></parsing_script>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <request_action display_value="Cisco ISE pxGrid GetSessions Action">be2ad1a2976d7950bd8ff0021153af39</request_action>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_number>0</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <support_pagination>false</support_pagination>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-09-30 23:02:06</sys_created_on>
+        <sys_id>c81a55ae972d7950bd8ff0021153afa2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Cisco ISE pxGrid Session Data</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_data_source_c81a55ae972d7950bd8ff0021153afa2</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-01 15:18:26</sys_updated_on>
+        <table_name/>
+        <type>REST</type>
+        <use_batch_import>false</use_batch_import>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+    <sys_variable_value action="delete_multiple" query="document_key=c81a55ae972d7950bd8ff0021153afa2"/>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>tempToNetwork Adapter 6</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">5781eea197f9b990bd8ff0021153afb7</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-11 11:07:16</sys_created_on>
+        <sys_id>0cf223f597793d90bd8ff0021153af9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToNetwork Adapter 6</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Cisco ISE Transform Map">1d816ea197f9b990bd8ff0021153afc6</sys_rte_eb_definition>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_0cf223f597793d90bd8ff0021153af9b</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-11 11:07:16</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Network Adapter 6">44f22fb597793d90bd8ff0021153af5f</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>
