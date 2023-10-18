@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_macaddress" table="x_caci_cisco_ise_session_data">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_mdmdevicemanager" table="x_caci_cisco_ise_session_data">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true,import_attribute_name=macAddress</attributes>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=mdmDeviceManager</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>macAddress</column_label>
+        <column_label>mdmDeviceManager</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -16,12 +16,12 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
-        <dynamic_creation>true</dynamic_creation>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_macaddress</element>
+        <element>u_mdmdevicemanager</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -32,7 +32,7 @@
         <max_length>40</max_length>
         <name>x_caci_cisco_ise_session_data</name>
         <next_element/>
-        <primary>true</primary>
+        <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
         <reference/>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>jamie@moderncyber.com</sys_created_by>
-        <sys_created_on>2023-10-01 15:18:25</sys_created_on>
-        <sys_name>macAddress</sys_name>
+        <sys_created_on>2023-10-16 18:01:08</sys_created_on>
+        <sys_name>mdmDeviceManager</sys_name>
         <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
-        <sys_update_name>sys_dictionary_x_caci_cisco_ise_session_data_u_macaddress</sys_update_name>
+        <sys_update_name>sys_dictionary_x_caci_cisco_ise_session_data_u_mdmdevicemanager</sys_update_name>
         <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-        <sys_updated_on>2023-10-13 14:36:12</sys_updated_on>
+        <sys_updated_on>2023-10-16 18:01:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -61,7 +61,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

@@ -1,72 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="MDM" section_id="1640b25c97fdf190bd8ff0021153afe2" sys_domain="global" table="x_caci_cisco_ise_session_data" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_mdmregistered</element>
+            <element>u_mdmdevicemanager</element>
             <position>0</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:35:07</sys_created_on>
-            <sys_id>2a40f25c97fdf190bd8ff0021153af68</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>9ec341c8470ab510404f82ae436d43f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:35:07</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mdmmacaddress</element>
+            <position>1</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>92c341c8470ab510404f82ae436d43f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mdmregistered</element>
+            <position>2</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>96c341c8470ab510404f82ae436d43f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_mdmpinlocked</element>
-            <position>1</position>
+            <position>3</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:35:07</sys_created_on>
-            <sys_id>2e40f25c97fdf190bd8ff0021153af68</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>9ac341c8470ab510404f82ae436d43f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:35:07</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_mdmcompliant</element>
-            <position>2</position>
+            <position>4</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:35:07</sys_created_on>
-            <sys_id>2240f25c97fdf190bd8ff0021153af69</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>9ec341c8470ab510404f82ae436d43f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:35:07</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_mdmjailbroken</element>
-            <position>3</position>
+            <position>5</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:35:07</sys_created_on>
-            <sys_id>2640f25c97fdf190bd8ff0021153af69</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>92c341c8470ab510404f82ae436d43f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:35:07</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_mdmdiskencrypted</element>
-            <position>4</position>
+            <position>6</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:35:07</sys_created_on>
-            <sys_id>2a40f25c97fdf190bd8ff0021153af69</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>96c341c8470ab510404f82ae436d43f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:35:07</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>9ac341c8470ab510404f82ae436d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mdmmanufacturer</element>
+            <position>8</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>9ec341c8470ab510404f82ae436d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mdmmodel</element>
+            <position>9</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>92c341c8470ab510404f82ae436d43f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mdmosversion</element>
+            <position>10</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>96c341c8470ab510404f82ae436d43f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mdmserialnumber</element>
+            <position>11</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>9ac341c8470ab510404f82ae436d43f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mdmimei</element>
+            <position>12</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>9ec341c8470ab510404f82ae436d43f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mdmudid</element>
+            <position>13</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>92c341c8470ab510404f82ae436d43f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="MDM" display_value="MDM" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">1640b25c97fdf190bd8ff0021153afe2</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

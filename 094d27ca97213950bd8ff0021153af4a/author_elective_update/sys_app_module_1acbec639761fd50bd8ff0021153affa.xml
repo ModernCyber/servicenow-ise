@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Cisco Identity Services Engine (ISE)">5dc59698977df190bd8ff0021153af42</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>CMDB Integrations Dashboard</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>cmdb_ci_computer</name>
+        <order>1600</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>./$pa_dashboard.do?embedded=true&amp;dashboard=7297051673230010011e3e2dfef6a732&amp;tab=8bd7851673230010011e3e2dfef6a71e</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-03 22:02:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1acbec639761fd50bd8ff0021153affa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CMDB Integrations Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_app_module_1acbec639761fd50bd8ff0021153affa</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-12 00:17:31</sys_updated_on>
+        <timeline_page/>
+        <title>CMDB Integrations Dashboard</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</application>
+        <file_path/>
+        <instance_id>c369663adbcb7b0452cec597059619b2</instance_id>
+        <instance_name>ven03091</instance_name>
+        <name>sys_app_module_1acbec639761fd50bd8ff0021153affa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Cisco Identity Services Engine (ISE)">5dc59698977df190bd8ff0021153af42</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>CMDB Integrations Dashboard</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>cmdb_ci_computer</name><order>1600</order><override_menu_roles>false</override_menu_roles><query>./$pa_dashboard.do?embedded=true&amp;dashboard=7297051673230010011e3e2dfef6a732&amp;tab=8bd7851673230010011e3e2dfef6a71e</query><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>jamie@moderncyber.com</sys_created_by><sys_created_on>2023-10-03 22:02:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1acbec639761fd50bd8ff0021153affa</sys_id><sys_mod_count>2</sys_mod_count><sys_name>CMDB Integrations Dashboard</sys_name><sys_overrides/><sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package><sys_policy/><sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope><sys_update_name>sys_app_module_1acbec639761fd50bd8ff0021153affa</sys_update_name><sys_updated_by>jamie@moderncyber.com</sys_updated_by><sys_updated_on>2023-10-12 00:17:31</sys_updated_on><timeline_page/><title>CMDB Integrations Dashboard</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1259913495</payload_hash>
+        <record_name>CMDB Integrations Dashboard</record_name>
+        <reverted_from/>
+        <source>2a7fab0e97213950bd8ff0021153afba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-12 00:17:31</sys_created_on>
+        <sys_id>3fc7564297f97d90bd8ff0021153afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b213ee4040000001</sys_recorded_at>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-12 00:17:31</sys_updated_on>
+        <type>Module</type>
+        <update_guid>77c75642e9f97d90dddb785eba0afaeb</update_guid>
+        <update_guid_history>77c75642e9f97d90dddb785eba0afaeb:1259913495,df5656d8fd7df190d8345c7c7f64ce42:2081739027,27655e58fe7df1908390f8a7bcdb5f7b:0,4d1ce0a3fe61fd50e3cf1f39978410cf:173081674</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CMDB Integrations Dashboard">28b90104474ab510404f82ae436d439d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-17 23:44:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>67ff8c47e4474f32b7121f4668572449</sys_id>
+        <sys_metadata>1acbec639761fd50bd8ff0021153affa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMDB Integrations Dashboard</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_scope_delete display_value="">5a160f9a00994784bd7e0fad91a4d110</sys_scope_delete>
+        <sys_update_name>sys_app_module_1acbec639761fd50bd8ff0021153affa</sys_update_name>
+        <sys_update_version display_value="sys_app_module_1acbec639761fd50bd8ff0021153affa">3fc7564297f97d90bd8ff0021153afeb</sys_update_version>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-17 23:44:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

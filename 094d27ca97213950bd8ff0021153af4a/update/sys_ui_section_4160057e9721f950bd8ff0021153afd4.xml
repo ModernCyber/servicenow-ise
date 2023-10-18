@@ -4,13 +4,13 @@
             <element>u_username</element>
             <position>0</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
-            <sys_id>7d617e9c97fdf190bd8ff0021153af5e</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>dec341c8470ab510404f82ae436d43d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_state</element>
             <position>1</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
-            <sys_id>75617e9c97fdf190bd8ff0021153af5f</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>d2c341c8470ab510404f82ae436d43d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_timestamp</element>
             <position>2</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
-            <sys_id>79617e9c97fdf190bd8ff0021153af5f</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>d6c341c8470ab510404f82ae436d43d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_usecase</element>
             <position>3</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
-            <sys_id>7d617e9c97fdf190bd8ff0021153af5f</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>dac341c8470ab510404f82ae436d43d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>u_macaddress</element>
             <position>4</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
-            <sys_id>71617e9c97fdf190bd8ff0021153af60</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>dec341c8470ab510404f82ae436d43d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,125 +74,125 @@
             <element>u_ipaddresses</element>
             <position>5</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
-            <sys_id>75617e9c97fdf190bd8ff0021153af60</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>d2c341c8470ab510404f82ae436d43d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_posturestatus</element>
+            <position>6</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>d6c341c8470ab510404f82ae436d43d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
-            <sys_id>79617e9c97fdf190bd8ff0021153af60</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>dac341c8470ab510404f82ae436d43d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_selectedauthzprofiles</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
-            <sys_id>7d617e9c97fdf190bd8ff0021153af60</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>dec341c8470ab510404f82ae436d43d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_ctssecuritygroup</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
-            <sys_id>71617e9c97fdf190bd8ff0021153af61</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>d2c341c8470ab510404f82ae436d43d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_endpointprofile</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
-            <sys_id>75617e9c97fdf190bd8ff0021153af61</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>d6c341c8470ab510404f82ae436d43d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_endpointoperatingsystem</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
-            <sys_id>79617e9c97fdf190bd8ff0021153af61</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>dac341c8470ab510404f82ae436d43d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_endpointcheckresult</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
-            <sys_id>7d617e9c97fdf190bd8ff0021153af61</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>dec341c8470ab510404f82ae436d43d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_auditsessionid</element>
-            <position>12</position>
-            <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-06 15:39:58</sys_created_on>
-            <sys_id>71617e9c97fdf190bd8ff0021153af62</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
-            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-06 15:39:58</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>configuration_item</element>
             <position>13</position>
             <sys_created_by>jamie@moderncyber.com</sys_created_by>
-            <sys_created_on>2023-10-09 20:07:33</sys_created_on>
-            <sys_id>e66b475597f57990bd8ff0021153af50</sys_id>
+            <sys_created_on>2023-10-17 23:18:15</sys_created_on>
+            <sys_id>d2c341c8470ab510404f82ae436d43d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_session_data" sys_domain="global" view="Default view">4160057e9721f950bd8ff0021153afd4</sys_ui_section>
             <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-            <sys_updated_on>2023-10-09 20:07:33</sys_updated_on>
+            <sys_updated_on>2023-10-17 23:18:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

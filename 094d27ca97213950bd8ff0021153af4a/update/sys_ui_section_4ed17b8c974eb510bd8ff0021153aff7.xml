@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="ISE Location" section_id="4ed17b8c974eb510bd8ff0021153aff7" sys_domain="global" table="cmdb_ci_wap_network" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_caci_cisco_ise_connection_type</element>
+            <position>0</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-18 11:58:49</sys_created_on>
+            <sys_id>1bd1fb8c974eb510bd8ff0021153afd5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ISE Location" display_value="ISE Location" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">4ed17b8c974eb510bd8ff0021153aff7</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-18 11:58:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_caci_cisco_ise_nad_profile</element>
+            <position>1</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-18 11:58:49</sys_created_on>
+            <sys_id>1fd1fb8c974eb510bd8ff0021153afd5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ISE Location" display_value="ISE Location" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">4ed17b8c974eb510bd8ff0021153aff7</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-18 11:58:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_caci_cisco_ise_nad_ip</element>
+            <position>2</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-18 11:58:49</sys_created_on>
+            <sys_id>13d1fb8c974eb510bd8ff0021153afd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ISE Location" display_value="ISE Location" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">4ed17b8c974eb510bd8ff0021153aff7</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-18 11:58:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_caci_cisco_ise_nad_identifier</element>
+            <position>3</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-18 11:58:49</sys_created_on>
+            <sys_id>17d1fb8c974eb510bd8ff0021153afd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ISE Location" display_value="ISE Location" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">4ed17b8c974eb510bd8ff0021153aff7</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-18 11:58:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-18 11:58:49</sys_created_on>
+            <sys_id>1bd1fb8c974eb510bd8ff0021153afd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ISE Location" display_value="ISE Location" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">4ed17b8c974eb510bd8ff0021153aff7</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-18 11:58:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_caci_cisco_ise_nad_port</element>
+            <position>5</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-18 11:58:49</sys_created_on>
+            <sys_id>1fd1fb8c974eb510bd8ff0021153afd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ISE Location" display_value="ISE Location" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">4ed17b8c974eb510bd8ff0021153aff7</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-18 11:58:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_caci_cisco_ise_vlan</element>
+            <position>6</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-18 11:58:49</sys_created_on>
+            <sys_id>13d1fb8c974eb510bd8ff0021153afd7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ISE Location" display_value="ISE Location" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">4ed17b8c974eb510bd8ff0021153aff7</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-18 11:58:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_caci_cisco_ise_ssid</element>
+            <position>7</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-18 11:58:49</sys_created_on>
+            <sys_id>17d1fb8c974eb510bd8ff0021153afd7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ISE Location" display_value="ISE Location" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">4ed17b8c974eb510bd8ff0021153aff7</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-18 11:58:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>ISE Location</caption>
+            <header>false</header>
+            <name>cmdb_ci_wap_network</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-18 11:58:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ed17b8c974eb510bd8ff0021153aff7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_wap_network</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+            <sys_update_name>sys_ui_section_4ed17b8c974eb510bd8ff0021153aff7</sys_update_name>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-18 11:58:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

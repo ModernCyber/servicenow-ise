@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>Register Dsicovery Source for Cisco ISE App</description>
+        <name>Cisco ISE Discovery Source</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[var sourceName = 'Cisco ISE';
+var dsUtil = new global.CMDBDataSourceUtil();
+dsUtil.addDataSource(sourceName);
+var util = new sn_itom_license.ITOMLicensingUtils();
+util.addDiscoverySource(sourceName);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-10-17 20:26:40</sys_created_on>
+        <sys_id>214c5484974e7510bd8ff0021153af9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cisco ISE Discovery Source</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+        <sys_update_name>sys_script_fix_214c5484974e7510bd8ff0021153af9c</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-10-17 20:26:40</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

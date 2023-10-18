@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="ISE Session" section_id="9295f7c0978eb510bd8ff0021153afb9" sys_domain="global" table="cmdb_ci_ip_phone" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mac_address</element>
+            <position>0</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-18 12:15:11</sys_created_on>
+            <sys_id>ba953bc0978eb510bd8ff0021153afda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ISE Session" display_value="ISE Session" name="cmdb_ci_ip_phone" sys_domain="global" view="Default view">9295f7c0978eb510bd8ff0021153afb9</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-18 12:15:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-18 12:15:11</sys_created_on>
+            <sys_id>b2953bc0978eb510bd8ff0021153afdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ISE Session" display_value="ISE Session" name="cmdb_ci_ip_phone" sys_domain="global" view="Default view">9295f7c0978eb510bd8ff0021153afb9</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-18 12:15:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>ISE Session</caption>
+            <header>false</header>
+            <name>cmdb_ci_ip_phone</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-10-18 12:15:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9295f7c0978eb510bd8ff0021153afb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_ip_phone</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">094d27ca97213950bd8ff0021153af4a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cisco ISE">094d27ca97213950bd8ff0021153af4a</sys_scope>
+            <sys_update_name>sys_ui_section_9295f7c0978eb510bd8ff0021153afb9</sys_update_name>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-10-18 12:15:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
