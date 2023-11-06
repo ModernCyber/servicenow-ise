@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_caci_cisco_ise_integration_settings</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_caci_cisco_ise_integration_settings">mid_serverVALCHANGES^ORpxgrid_nodeVALCHANGES^ORpxgrid_portVALCHANGES^ORmid_server_in_useVALCHANGES^EQ<item endquery="false" field="mid_server" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="pxgrid_node" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="pxgrid_port" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="mid_server_in_use" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Cisco ISE Integration Provisioning</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    (function () {
+        try {
+            var gr = new GlideRecord('x_caci_cisco_ise_integration_settings');
+            gr.addQuery();
+            gr.setLimit(1);
+            gr.query();
+            gr.next();
+
+            // mid sever variable
+            var mid = gr.mid_server_name;
+            // gs.info('ISE APP - mid from Integration: ' + gr.mid_server + ' | static mid: ' + mid);
+
+            // pxGrid variables
+            var pxgrid_url = ('https://' + gr.pxgrid_node + ':' + gr.pxgrid_port + '/');
+            var pxgrid_account = gr.pxgrid_account_name;
+            // var pxgrid_account = 'ServiceNow'
+            gs.info('ISE APP - Got Provisioning Info - pxgrid_account: ' + pxgrid_account + ' | pxgrid_url: ' + pxgrid_url);
+
+            // ers variables
+            var ers_url = ('https://' + gr.ers_node + ':' + gr.ers_port + '/');
+            var ers_encr_password = gr.ers_password;
+            var ers_password = ers_encr_password.getDecryptedValue();
+            gs.info('ISE APP - Got Provisioning Info - ers_account: ' + gr.ers_username + ':' + ers_password + ' | ers_url: ' + ers_url);
+
+            // ---------------- START THE PROVISIONING ---------
+
+            // AC - Account Create
+            acreq = new sn_ws.RESTMessageV2();
+            acreq.setEndpoint(pxgrid_url + 'pxgrid/control/AccountCreate');
+            acreq.setMIDServer(mid);
+            acreq.setHttpMethod('POST');
+            acreq.setRequestHeader("Accept", "application/json");
+            acreq.setRequestHeader('Content-Type', 'application/json');
+            acreq.setRequestBody('{ "nodeName": "' + pxgrid_account + '" }');
+            acres = acreq.execute();
+            gs.info('ISE APP - Account Create - Status: ' + acres.getStatusCode() + ' | Response: ' + acres.getBody());
+            var acct = JSON.parse(acres.getBody());
+
+
+            // AA - Account Activate
+            aareq = new sn_ws.RESTMessageV2();
+            aareq.setEndpoint(pxgrid_url + 'pxgrid/control/AccountActivate');
+            aareq.setBasicAuth(acct.userName, acct.password);
+            aareq.setMIDServer(mid);
+            aareq.setHttpMethod('POST');
+            aareq.setRequestHeader("Accept", "application/json");
+            aareq.setRequestHeader('Content-Type', 'application/json');
+            aareq.setRequestBody('{ "description": "' + pxgrid_account + '" }');
+            aares = aareq.execute();
+            gs.info('ISE APP - Account Activate - Status: ' + aares.getStatusCode() + ' | Response: ' + aares.getBody());
+
+
+            // AP - ERS Approve Account
+            apreq = new sn_ws.RESTMessageV2();
+            apreq.setEndpoint(ers_url + 'ers/config/pxgridNode/name/' + pxgrid_account + '/approve');
+            apreq.setBasicAuth(gr.ers_username, ers_password);
+            apreq.setMIDServer(mid);
+            apreq.setHttpMethod('PUT');
+            apreq.setRequestHeader("Accept", "application/json");
+            apreq.setRequestHeader('Content-Type', 'application/json');
+            apreq.setRequestBody('{}');
+            apres = apreq.execute();
+            gs.info('ISE APP - Account Approve - Status: ' + apres.getStatusCode() + ' | Response: ' + apres.getBody());
+
+
+            // VA - Verify Account Active
+            vareq = new sn_ws.RESTMessageV2();
+            vareq.setEndpoint(pxgrid_url + 'pxgrid/control/AccountActivate');
+            vareq.setBasicAuth(acct.userName, acct.password);
+            vareq.setMIDServer(mid);
+            vareq.setHttpMethod('POST');
+            vareq.setRequestHeader("Accept", "application/json");
+            vareq.setRequestHeader('Content-Type', 'application/json');
+            vareq.setRequestBody('{ "description": "' + pxgrid_account + '" }');
+            vares = vareq.execute();
+            gs.info('ISE APP - Verify Account - Status: ' + vares.getStatusCode() + ' | Response: ' + vares.getBody());
+
+
+            // SL - Service Lookup
+            slreq = new sn_ws.RESTMessageV2();
+            slreq.setEndpoint(pxgrid_url + 'pxgrid/control/ServiceLookup');
+            slreq.setBasicAuth(acct.userName, acct.password);
+            slreq.setMIDServer(mid);
+            slreq.setHttpMethod('POST');
+            slreq.setRequestHeader("Accept", "application/json");
+            slreq.setRequestHeader('Content-Type', 'application/json');
+            slreq.setRequestBody('{ "name": "com.cisco.ise.session" }');
+            slres = slreq.execute();
+            gs.info('ISE APP - ServiceLookup - Status: ' + slres.getStatusCode() + ' | Response: ' + slres.getBody());
+            var svc = JSON.parse(slres.getBody());
+            gs.error('ISE APP - PARSED NODE NAME: ' + svc.services[0].nodeName);
+
+
+            // AS - Get Access Secret
+            asreq = new sn_ws.RESTMessageV2();
+            asreq.setEndpoint(pxgrid_url + 'pxgrid/control/AccessSecret');
+            asreq.setBasicAuth(acct.userName, acct.password);
+            asreq.setMIDServer(mid);
+            asreq.setHttpMethod('POST');
+            asreq.setRequestHeader("Accept", "application/json");
+            asreq.setRequestHeader('Content-Type', 'application/json');
+            asreq.setRequestBody('{ "peerNodeName":"' + svc.services[0].nodeName + '" }');
+            asres = asreq.execute();
+            gs.info('ISE APP - Get Access Secret - Status: ' + asres.getStatusCode() + ' | Response: ' + asres.getBody());
+            var asjson = JSON.parse(asres.getBody());
+            var secret = asjson.secret;
+
+
+            // UPDATE ISE CONFIG INFO
+            var now = new GlideDateTime();
+            gs.info(now + ' - Successfully Provisioned ISE pxGrid Connection to ' + pxgrid_account + '@' + gr.pxgrid_node + ':' + gr.pxgrid_port + ' ');
+            gr.status = (now + ' - Successfully Provisioned ISE pxGrid Connection to ' + pxgrid_account + '@' + gr.pxgrid_node + ':' + gr.pxgrid_port + ' ');
+            gr.pxgrid_secret.setDisplayValue(secret);
+            gr.pxgrid_password.setDisplayValue(acct.password);
+            gr.description = svc.services[0].nodeName;
+            gr.update();
+
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.error('ISE APP - Provisioning Error: ' + message);
+        }
+
+    })();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-11-04 20:59:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d88f89b5979eb190bd8ff0021153af24</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Cisco ISE Integration Provisioning</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
+        <sys_update_name>sys_script_d88f89b5979eb190bd8ff0021153af24</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-11-06 13:53:29</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=d88f89b5979eb190bd8ff0021153af24"/>
+</record_update>
