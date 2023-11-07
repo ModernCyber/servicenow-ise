@@ -2,21 +2,21 @@
     <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
         <order>100</order>
         <referenced_sys_rte_eb_entity/>
-        <source_sys_rte_eb_field display_value="u_mdmserialnumber">b846a9b19752f190bd8ff0021153afbf</source_sys_rte_eb_field>
+        <source_sys_rte_eb_field display_value="u_mdmregistered">7c46a9b19752f190bd8ff0021153afb9</source_sys_rte_eb_field>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
         <sys_created_by>jamie@moderncyber.com</sys_created_by>
-        <sys_created_on>2023-11-05 15:30:09</sys_created_on>
-        <sys_id>e2decd0a97d23590bd8ff0021153afeb</sys_id>
+        <sys_created_on>2023-11-07 18:54:47</sys_created_on>
+        <sys_id>13d01cfa979af590bd8ff0021153af50</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="ISE ETL Map">1a6565319752f190bd8ff0021153af57</sys_rte_eb_definition>
-        <sys_rte_eb_entity_mapping display_value="tempToSerial Number 2">2edecd0a97d23590bd8ff0021153af38</sys_rte_eb_entity_mapping>
+        <sys_rte_eb_entity_mapping display_value="TempToComputer">5d7fb17597d2f190bd8ff0021153af73</sys_rte_eb_entity_mapping>
         <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
-        <sys_update_name>sys_rte_eb_field_mapping_e2decd0a97d23590bd8ff0021153afeb</sys_update_name>
+        <sys_update_name>sys_rte_eb_field_mapping_13d01cfa979af590bd8ff0021153af50</sys_update_name>
         <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-        <sys_updated_on>2023-11-05 15:30:09</sys_updated_on>
-        <target_sys_rte_eb_field display_value="serial_number">66decd0a97d23590bd8ff0021153afe9</target_sys_rte_eb_field>
+        <sys_updated_on>2023-11-07 18:54:47</sys_updated_on>
+        <target_sys_rte_eb_field display_value="x_caci_cisco_ise_mdm_registered">dfd01cfa979af590bd8ff0021153af4d</target_sys_rte_eb_field>
     </sys_rte_eb_field_mapping>
 </record_update>

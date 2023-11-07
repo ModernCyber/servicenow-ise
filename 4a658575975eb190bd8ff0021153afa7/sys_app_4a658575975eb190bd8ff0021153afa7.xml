@@ -29,16 +29,16 @@
         <sys_created_by>jamie@moderncyber.com</sys_created_by>
         <sys_created_on>2023-11-04 20:10:25</sys_created_on>
         <sys_id>4a658575975eb190bd8ff0021153afa7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
-        <sys_updated_on>2023-11-05 23:33:39</sys_updated_on>
+        <sys_updated_on>2023-11-07 18:02:17</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role display_value="x_caci_cisco_ise.ise admin" name="x_caci_cisco_ise.ise admin">bc854df5975eb190bd8ff0021153af2c</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>0.6.1</version>
+        <version>0.7.0</version>
     </sys_app>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color/>

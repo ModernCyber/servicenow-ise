@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>tempToSerial Number 3</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">5c4629b19752f190bd8ff0021153af44</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-11-06 14:13:42</sys_created_on>
+        <sys_id>14f60eda97da7590bd8ff0021153afb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToSerial Number 3</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="ISE ETL Map">1a6565319752f190bd8ff0021153af57</sys_rte_eb_definition>
+        <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_14f60eda97da7590bd8ff0021153afb6</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:13:42</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Serial Number 3">90f60eda97da7590bd8ff0021153afb4</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</application>
+        <file_path/>
+        <instance_id>c369663adbcb7b0452cec597059619b2</instance_id>
+        <instance_name>ven03091</instance_name>
+        <name>sys_rte_eb_entity_mapping_14f60eda97da7590bd8ff0021153afb6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;&lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;&lt;condition_script&gt;&lt;![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input &amp;&amp; input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]&gt;&lt;/condition_script&gt;&lt;encoded_query/&gt;&lt;entity_mapping_group/&gt;&lt;ignore&gt;false&lt;/ignore&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;tempToSerial Number 3&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;source_sys_rte_eb_entity display_value="temp"&gt;5c4629b19752f190bd8ff0021153af44&lt;/source_sys_rte_eb_entity&gt;&lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jamie@moderncyber.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-06 14:13:42&lt;/sys_created_on&gt;&lt;sys_id&gt;14f60eda97da7590bd8ff0021153afb6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;tempToSerial Number 3&lt;/sys_name&gt;&lt;sys_package display_value="Cisco ISE" source="x_caci_cisco_ise"&gt;4a658575975eb190bd8ff0021153afa7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="ISE ETL Map"&gt;1a6565319752f190bd8ff0021153af57&lt;/sys_rte_eb_definition&gt;&lt;sys_scope display_value="Cisco ISE"&gt;4a658575975eb190bd8ff0021153afa7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_entity_mapping_14f60eda97da7590bd8ff0021153afb6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jamie@moderncyber.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-06 14:13:42&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_entity display_value="Serial Number 3"&gt;90f60eda97da7590bd8ff0021153afb4&lt;/target_sys_rte_eb_entity&gt;&lt;/sys_rte_eb_entity_mapping&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-333920883</payload_hash>
+        <record_name>tempToSerial Number 3</record_name>
+        <reverted_from/>
+        <source>2ed7dce647de3990404f82ae436d43f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-11-06 14:13:42</sys_created_on>
+        <sys_id>10f60eda97da7590bd8ff0021153afb8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18ba4fb6cfd0000001</sys_recorded_at>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-11-07 00:46:52</sys_updated_on>
+        <type>Robust Transform Engine Entity Mapping</type>
+        <update_guid>18f60eda4cda7590d9f11d8bb1ab1fb7</update_guid>
+        <update_guid_history>18f60eda4cda7590d9f11d8bb1ab1fb7:-333920883</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-11-07 19:02:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>4db930aebc7449f79f6e371b1556aa79</sys_id>
+        <sys_metadata>14f60eda97da7590bd8ff0021153afb6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToSerial Number 3</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
+        <sys_scope_delete display_value="">10fc9f8acba646c69e1a828f564de961</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_14f60eda97da7590bd8ff0021153afb6</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_14f60eda97da7590bd8ff0021153afb6">10f60eda97da7590bd8ff0021153afb8</sys_update_version>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-11-07 19:02:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

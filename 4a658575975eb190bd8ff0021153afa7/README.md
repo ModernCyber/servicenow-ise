@@ -27,4 +27,5 @@ If you find yourself unable to import your repository due to the presence of fil
    * System Import Sets
    * ITOM Licensing
    * Configuration Management (CMDB)
+   * Import Sets REST IntegrationHub Support
    * Robust Transform Engine
