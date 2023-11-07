@@ -38,7 +38,7 @@ COMING SOON
 
 ## Installation Instructions
 ### 1. Deploy a MID Server (Required) - [Documentation](https://docs.servicenow.com/en-US/bundle/vancouver-servicenow-platform/page/product/mid-server/concept/mid-server-installation.html)
-**Note** If ISE does not use a publiclly trusted certificate for ERS or pxGrid a MID Certificate Policy can be used to disable Certificate Chain Check.
+**Note** If ISE does not use a publicly trusted certificate for ERS or pxGrid a MID Certificate Policy can be used to disable Certificate Chain Check.
 <center><img src="img/midcert.png" width="800"></center><br>
 
 ### 2. Import the App via Source Control 
