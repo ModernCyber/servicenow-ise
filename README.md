@@ -28,37 +28,45 @@ The Cisco ISE App for ServiceNow provides a complete, accurate and up-to-date vi
 
 
 ## Installation & Setup Video
-
+COMING SOON
 
 ## Installation Instructions
-1. [Deploy a MID Server (Required)](https://docs.servicenow.com/en-US/bundle/vancouver-servicenow-platform/page/product/mid-server/concept/mid-server-installation.html)
-2. Import the App via Source Control 
-- Click the Fork button on this page.
-- Select your personal GitHub account as the fork Owner, then click the Create fork button.
-- Create credentials to access your repository. [Example #1](https://snprotips.com/blog/2022/3/4/how-to-change-servicenow-applications-repositoryurl) | [Example #2](https://developer.servicenow.com/dev.do#!/learn/learning-plans/tokyo/new_to_servicenow/BNI_Lab_ForkRepo_tokyo)
-- On your ServiceNow Instance, navigate to System Applications > Studio
-- Select File > Import From Source Control and enter the repository URL, Credential, select master as the branch and click Import.<br>
-<img src="img/import.png" width="50%">
-<img src="img/import-success.png" width="50%">
-3. Configure Integration Settings. From your instance homepage, navigate to Cisco ISE App > Integration Settings. (Note: All required navigation for the App is in the Cisco ISE Application Menu<br>
+### 1. Deploy a MID Server (Required) - [Documentation](https://docs.servicenow.com/en-US/bundle/vancouver-servicenow-platform/page/product/mid-server/concept/mid-server-installation.html)
+
+### 2. Import the App via Source Control 
+1. Click the Fork button on this page.
+2. Select your personal GitHub account as the fork Owner, then click the Create fork button.
+3. Create credentials to access your repository. [Example #1](https://snprotips.com/blog/2022/3/4/how-to-change-servicenow-applications-repositoryurl) | [Example #2](https://developer.servicenow.com/dev.do#!/learn/learning-plans/tokyo/new_to_servicenow/BNI_Lab_ForkRepo_tokyo)
+4. On your ServiceNow Instance, navigate to System Applications > Studio
+5. Select File > Import From Source Control and enter the repository URL, Credential, select master as the branch and click Import.<br>
+<center><img src="img/import.png" width="50%"><br>
+<img src="img/import-success.png" width="50%"></center>
+
+### 3. Configure Integration Settings. 
+1. From your instance homepage, navigate to Cisco ISE App > Integration Settings. (Note: All required navigation for the App is in the Cisco ISE Application Menu<br>
 <img src="img/nav-int.png" width="600">
-- Configure the pxGrid Node (FQDN or IP Address)
-- Configure the pxGrid Port (Default is 8910)
-- Configure the pxGrid Account Name (Must be unique from other integrations)
-- Select the MID Server to be used for the integration and enter the MID Server Name.
+2. Configure the pxGrid Node (FQDN or IP Address)
+3. Configure the pxGrid Port (Default is 8910)
+4. Configure the pxGrid Account Name (Must be unique from other integrations)
+5. Select the MID Server to be used for the integration and enter the MID Server Name.
  <br>
 <img src="img/integration-settings.png"  width="1200">
-- Select the ERS Settings Tab - ERS is used to approve the pxGrid account in ISE.
-- Configure the ERS Node (Typically the Primary Administration Node)
-- Configure the ERS Port (Default is 9060)
-- Configure the ERS Username and Password (User should be in the ERS-Admin Group. [More Info](https://developer.cisco.com/docs/identity-services-engine/latest/#!setting-up/cisco-ise))<br>
+6. Select the ERS Settings Tab - ERS is used to approve the pxGrid account in ISE.
+7. Configure the ERS Node (Typically the Primary Administration Node)
+8. Configure the ERS Port (Default is 9060)
+9. Configure the ERS Username and Password (User should be in the ERS-Admin Group. [More Info](https://developer.cisco.com/docs/identity-services-engine/latest/#!setting-up/cisco-ise))<br>
 <img src="img/integration-ers-settings.png" width="1200">
-- Verify your settings and click Update.
-4. Verify pxGrid Provisioning completes successfully<br>
+10. Verify your settings and click Update.
+
+### 4. Verify pxGrid Provisioning completes successfully<br>
 <img src="img/int-status.png" width="1200">
 
 ## Extract, Transform, & Load Configuration
-Use the guided setup on the ETL Transform Map Assistant page to customize the integration data mappings to target CMDB classes based on source data. From the Cisco ISE App menu select ETL Configuration.<br> 
+From your instance homepage, navigate to **Cisco ISE App > ETL Configuration**.<br> 
+<img src="img/nav-int.png" width="600"><br>
+
+Use the guided setup on the ETL Transform Map Assistant page to customize the integration data mappings to target CMDB classes based on source data. (ServiceNow Documentation: [ Create an ETL transform map](https://docs.servicenow.com/bundle/tokyo-servicenow-platform/page/product/configuration-management/concept/create-etl-transform-map.html))
+
 <img src="img/etl.png" width="1200">
 
 ### Step 1. Provide Basic Information for the ETL Transform Map
@@ -81,8 +89,8 @@ On the Relationship mapping page, configure relationships between CIs based on y
 Click on Test and Rollback Integration Results and then **Run Integration**. 
 <img src="img/etl-s4.png" width="1200">
 
-Verify your results andthen click **Mark as Complete**.
-<img src="img/etl-s4b.png" width="1200">
+Verify your results and then click **Mark as Complete**.
+<img src="img/etl-s4b.png" width="800">
 
 ### Step 5. Schedule Import
 From the Cisco ISE App menu, click on Import Schedule.<br>
