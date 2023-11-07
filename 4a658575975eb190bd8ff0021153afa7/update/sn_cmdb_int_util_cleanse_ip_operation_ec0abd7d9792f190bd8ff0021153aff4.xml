@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmdb_int_util_cleanse_ip_operation">
+    <sn_cmdb_int_util_cleanse_ip_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script/>
+        <is_conditional>false</is_conditional>
+        <name>Cleanse IP Address - u_ipaddresses</name>
+        <operation_group/>
+        <order>200</order>
+        <source_sys_rte_eb_field display_value="u_ipaddresses">6c46a9b19752f190bd8ff0021153af61</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sn_cmdb_int_util_cleanse_ip_operation</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-11-05 00:00:14</sys_created_on>
+        <sys_id>ec0abd7d9792f190bd8ff0021153aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cleanse IP Address - u_ipaddresses</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="ISE ETL Map">1a6565319752f190bd8ff0021153af57</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">5c4629b19752f190bd8ff0021153af44</sys_rte_eb_entity>
+        <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
+        <sys_update_name>sn_cmdb_int_util_cleanse_ip_operation_ec0abd7d9792f190bd8ff0021153aff4</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-11-05 00:00:14</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_ip">640a757d9792f190bd8ff0021153af09</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Cleanse IP Address">892fba20739100102b6265a751ab9e60</type>
+    </sn_cmdb_int_util_cleanse_ip_operation>
+</record_update>

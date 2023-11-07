@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f8aa36ce97da3590bd8ff0021153af53" sys_domain="global" table="x_caci_cisco_ise_integration_settings" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-05 23:21:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4daa36ce97da3590bd8ff0021153af56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_caci_cisco_ise_integration_settings" name="x_caci_cisco_ise_integration_settings" sys_domain="global" view="Default view">f8aa36ce97da3590bd8ff0021153af53</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_caci_cisco_ise_integration_settings" sys_domain="global" view="Default view">b47a91fd97deb190bd8ff0021153af1d</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-05 23:21:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-05 23:21:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4daa36ce97da3590bd8ff0021153af95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_caci_cisco_ise_integration_settings" name="x_caci_cisco_ise_integration_settings" sys_domain="global" view="Default view">f8aa36ce97da3590bd8ff0021153af53</sys_ui_form>
+            <sys_ui_section caption="MID Server" display_value="MID Server" name="x_caci_cisco_ise_integration_settings" sys_domain="global" view="Default view">3caa36ce97da3590bd8ff0021153af51</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-05 23:21:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-05 23:21:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89aa36ce97da3590bd8ff0021153af99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_caci_cisco_ise_integration_settings" name="x_caci_cisco_ise_integration_settings" sys_domain="global" view="Default view">f8aa36ce97da3590bd8ff0021153af53</sys_ui_form>
+            <sys_ui_section caption="ERS Settings" display_value="ERS Settings" name="x_caci_cisco_ise_integration_settings" sys_domain="global" view="Default view">f8aa36ce97da3590bd8ff0021153af52</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-05 23:21:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_caci_cisco_ise_integration_settings</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-05 23:21:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8aa36ce97da3590bd8ff0021153af53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_caci_cisco_ise_integration_settings</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f8aa36ce97da3590bd8ff0021153af53</sys_update_name>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-05 23:21:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
