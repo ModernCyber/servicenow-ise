@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Cisco ISE App">122c8d31979eb190bd8ff0021153af73</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="cmdb_ci_hardware">discovery_source=Cisco ISE^EQ<item display_value="Cisco ISE" endquery="false" field="discovery_source" goto="false" newquery="false" operator="=" or="false" value="Cisco ISE"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>ISE Devices in CMDB</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>cmdb_ci_hardware</name>
+        <order>1500</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>./cmdb_ci_hardware_list.do?sysparm_query=discovery_source%3DCisco%20ISE&amp;sysparm_view=cisco_ise_devices</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-11-06 17:11:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd8f6e1297de7590bd8ff0021153af6e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ISE Devices</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
+        <sys_update_name>sys_app_module_cd8f6e1297de7590bd8ff0021153af6e</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-11-07 02:40:05</sys_updated_on>
+        <timeline_page/>
+        <title>ISE Devices</title>
+        <uncancelable>false</uncancelable>
+        <view_name>Cisco ISE Devices</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

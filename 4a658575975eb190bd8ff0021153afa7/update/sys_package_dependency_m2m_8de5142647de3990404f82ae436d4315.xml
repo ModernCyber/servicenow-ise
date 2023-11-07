@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Robust Transform Engine" source="com.glide.robust_transform_engine">4188cda11b0010109be3dca4bd4bcbd4</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-11-07 00:38:15</sys_created_on>
+        <sys_id>8de5142647de3990404f82ae436d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-11-07 00:38:15</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

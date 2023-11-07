@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[(function() {
+    if (((input.temp.u_endpointprofile.indexOf('IP-Phone') > -1)) && !((input.temp.u_endpointprofile.indexOf('Workstation') > -1) && (!input.temp.u_adhostresolvedidentities || !input.temp.u_mdmserialnumber)) && !((input.temp.u_endpointprofile.indexOf('JetDirect') > -1 || input.temp.u_endpointprofile.indexOf('LaserJet') > -1))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query>u_endpointprofileLIKEIP-Phone</encoded_query>
+        <entity_mapping_group>d97fb17597d2f190bd8ff0021153af70</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>true</is_conditional>
+        <name>TempToIP Phone</name>
+        <order>300</order>
+        <source_sys_rte_eb_entity display_value="temp">5c4629b19752f190bd8ff0021153af44</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-11-05 00:24:03</sys_created_on>
+        <sys_id>957fb17597d2f190bd8ff0021153afae</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>TempToIP Phone</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="ISE ETL Map">1a6565319752f190bd8ff0021153af57</sys_rte_eb_definition>
+        <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_957fb17597d2f190bd8ff0021153afae</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:12:46</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="IP Phone">d97fb17597d2f190bd8ff0021153af7a</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

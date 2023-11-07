@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="ae8cee3a1b0333009be3dca4bd4bcb0b" extends="cmdb_ci" label="Hardware" max_length="40" name="cmdb_ci_hardware" type="collection">
+        <element label="Authorization Profile" max_length="255" name="x_caci_cisco_ise_authorization_profile" type="string"/>
+        <element label="Connection Type" max_length="255" name="x_caci_cisco_ise_connection_type" type="string"/>
+        <element label="Endpoint Profile" max_length="255" name="x_caci_cisco_ise_endpoint_profile" type="string"/>
+        <element label="MDM Compliant" max_length="25" name="x_caci_cisco_ise_mdm_compliant" type="boolean"/>
+        <element label="MDM Encryption" max_length="40" name="x_caci_cisco_ise_mdm_encryption" type="boolean"/>
+        <element label="MDM Jail Broken" max_length="40" name="x_caci_cisco_ise_mdm_jail_broken" type="boolean"/>
+        <element label="MDM PIN Lock" max_length="40" name="x_caci_cisco_ise_mdm_pin_lock" type="boolean"/>
+        <element label="MDM Registered" max_length="40" name="x_caci_cisco_ise_mdm_registered" type="boolean"/>
+        <element label="NAD Identifier" max_length="255" name="x_caci_cisco_ise_nad_identifier" type="string"/>
+        <element label="NAD IP" max_length="255" name="x_caci_cisco_ise_nad_ip" type="string"/>
+        <element label="NAD Port" max_length="255" name="x_caci_cisco_ise_nad_port" type="string"/>
+        <element label="NAD Vendor" max_length="255" name="x_caci_cisco_ise_nad_vendor" type="string"/>
+        <element label="Network Username" max_length="512" name="x_caci_cisco_ise_network_username" type="string"/>
+        <element label="NMAP OS" max_length="255" name="x_caci_cisco_ise_nmap_os" type="string"/>
+        <element label="Posture Status" max_length="255" name="x_caci_cisco_ise_posture_status" type="string"/>
+        <element label="Security Group" max_length="255" name="x_caci_cisco_ise_security_group" type="string"/>
+        <element label="Session ID" max_length="255" name="x_caci_cisco_ise_session_id" type="string"/>
+        <element label="Session State" max_length="255" name="x_caci_cisco_ise_session_state" type="string"/>
+        <element label="Use Case" max_length="255" name="x_caci_cisco_ise_use_case" type="string"/>
+        <element label="VLAN" max_length="255" name="x_caci_cisco_ise_vlan" type="string"/>
+        <element label="Wireless SSID" max_length="255" name="x_caci_cisco_ise_wireless_ssid" type="string"/>
+    </element>
+</database>

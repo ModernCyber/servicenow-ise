@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>b87ad5319712f190bd8ff0021153af36</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_caci_cisco_ise_integration_settings">
+    <x_caci_cisco_ise_integration_settings action="INSERT_OR_UPDATE">
+        <description/>
+        <ers_node>ise.sanbower.net</ers_node>
+        <ers_password>C1sco12345</ers_password>
+        <ers_port>9060</ers_port>
+        <ers_username>snowy</ers_username>
+        <last_sync/>
+        <mid_server display_value="MC-MID-SRV-ISE">c408eb8297213950bd8ff0021153afe1</mid_server>
+        <mid_server_in_use>true</mid_server_in_use>
+        <mid_server_name>MC-MID-SRV-ISE</mid_server_name>
+        <name>Cisco ISE POC</name>
+        <pxgrid_account_name>ServiceNow</pxgrid_account_name>
+        <pxgrid_node>ise.sanbower.net</pxgrid_node>
+        <pxgrid_password/>
+        <pxgrid_port>8910</pxgrid_port>
+        <pxgrid_secret/>
+        <status/>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-11-04 21:45:09</sys_created_on>
+        <sys_id>b87ad5319712f190bd8ff0021153af36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-11-04 21:45:09</sys_updated_on>
+    </x_caci_cisco_ise_integration_settings>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-11-04 21:45:38</sys_created_on>
+        <sys_id>f03b19719712f190bd8ff0021153af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cisco ISE POC</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
+        <sys_update_name>sys_metadata_link_f03b19719712f190bd8ff0021153af68</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-11-04 21:45:38</sys_updated_on>
+        <tablename>x_caci_cisco_ise_integration_settings</tablename>
+    </sys_metadata_link>
+</record_update>

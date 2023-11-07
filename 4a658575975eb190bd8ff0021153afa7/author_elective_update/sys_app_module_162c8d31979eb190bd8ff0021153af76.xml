@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Cisco ISE App">122c8d31979eb190bd8ff0021153af73</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Integration Settings</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_caci_cisco_ise_integration_settings</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_caci_cisco_ise.ise admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-11-04 20:39:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>162c8d31979eb190bd8ff0021153af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Integration Settings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
+        <sys_update_name>sys_app_module_162c8d31979eb190bd8ff0021153af76</sys_update_name>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-11-04 20:39:55</sys_updated_on>
+        <timeline_page/>
+        <title>Integration Settings</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</application>
+        <file_path/>
+        <instance_id>c369663adbcb7b0452cec597059619b2</instance_id>
+        <instance_name>ven03091</instance_name>
+        <name>sys_app_module_162c8d31979eb190bd8ff0021153af76</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Cisco ISE App">122c8d31979eb190bd8ff0021153af73</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Integration Settings</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_caci_cisco_ise_integration_settings</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_caci_cisco_ise.ise admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>jamie@moderncyber.com</sys_created_by><sys_created_on>2023-11-04 20:39:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>162c8d31979eb190bd8ff0021153af76</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Integration Settings</sys_name><sys_overrides/><sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package><sys_policy/><sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope><sys_update_name>sys_app_module_162c8d31979eb190bd8ff0021153af76</sys_update_name><sys_updated_by>jamie@moderncyber.com</sys_updated_by><sys_updated_on>2023-11-04 20:39:55</sys_updated_on><timeline_page/><title>Integration Settings</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1672433360</payload_hash>
+        <record_name>Integration Settings</record_name>
+        <reverted_from/>
+        <source>2ed7dce647de3990404f82ae436d43f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-11-04 20:39:55</sys_created_on>
+        <sys_id>522cc571979eb190bd8ff0021153af50</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18b9c104c410000001</sys_recorded_at>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-11-07 00:46:52</sys_updated_on>
+        <type>Module</type>
+        <update_guid>de2c8d31339eb190f5b028d9245ec377</update_guid>
+        <update_guid_history>de2c8d31339eb190f5b028d9245ec377:-1672433360</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Integration Settings">3981c30a971e3590bd8ff0021153af34</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jamie@moderncyber.com</sys_created_by>
+        <sys_created_on>2023-11-05 23:51:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>70b6cdda1bd643d4b4b50841a95817d1</sys_id>
+        <sys_metadata>162c8d31979eb190bd8ff0021153af76</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Integration Settings</sys_name>
+        <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
+        <sys_scope_delete display_value="">10fc9f8acba646c69e1a828f564de961</sys_scope_delete>
+        <sys_update_name>sys_app_module_162c8d31979eb190bd8ff0021153af76</sys_update_name>
+        <sys_update_version display_value="sys_app_module_162c8d31979eb190bd8ff0021153af76">522cc571979eb190bd8ff0021153af50</sys_update_version>
+        <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+        <sys_updated_on>2023-11-05 23:51:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

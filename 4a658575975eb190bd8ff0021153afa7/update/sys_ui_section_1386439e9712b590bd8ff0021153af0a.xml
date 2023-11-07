@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Network Connnection" section_id="1386439e9712b590bd8ff0021153af0a" sys_domain="global" table="x_caci_cisco_ise_staging_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nasporttype</element>
+            <position>0</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 18:51:38</sys_created_on>
+            <sys_id>6386439e9712b590bd8ff0021153af99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network Connnection" display_value="Network Connnection" name="x_caci_cisco_ise_staging_table" sys_domain="global" view="Default view">1386439e9712b590bd8ff0021153af0a</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 18:51:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_networkdeviceprofilename</element>
+            <position>1</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 18:51:38</sys_created_on>
+            <sys_id>6786439e9712b590bd8ff0021153af99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network Connnection" display_value="Network Connnection" name="x_caci_cisco_ise_staging_table" sys_domain="global" view="Default view">1386439e9712b590bd8ff0021153af0a</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 18:51:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nasipaddress</element>
+            <position>2</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 18:51:38</sys_created_on>
+            <sys_id>6b86439e9712b590bd8ff0021153af99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network Connnection" display_value="Network Connnection" name="x_caci_cisco_ise_staging_table" sys_domain="global" view="Default view">1386439e9712b590bd8ff0021153af0a</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 18:51:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nasidentifier</element>
+            <position>3</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 18:51:38</sys_created_on>
+            <sys_id>6f86439e9712b590bd8ff0021153af99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network Connnection" display_value="Network Connnection" name="x_caci_cisco_ise_staging_table" sys_domain="global" view="Default view">1386439e9712b590bd8ff0021153af0a</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 18:51:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 18:51:38</sys_created_on>
+            <sys_id>6386439e9712b590bd8ff0021153af9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network Connnection" display_value="Network Connnection" name="x_caci_cisco_ise_staging_table" sys_domain="global" view="Default view">1386439e9712b590bd8ff0021153af0a</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 18:51:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nasportid</element>
+            <position>5</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 18:51:38</sys_created_on>
+            <sys_id>6786439e9712b590bd8ff0021153af9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network Connnection" display_value="Network Connnection" name="x_caci_cisco_ise_staging_table" sys_domain="global" view="Default view">1386439e9712b590bd8ff0021153af0a</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 18:51:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tunnelprivategroupid</element>
+            <position>6</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 18:51:38</sys_created_on>
+            <sys_id>6b86439e9712b590bd8ff0021153af9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network Connnection" display_value="Network Connnection" name="x_caci_cisco_ise_staging_table" sys_domain="global" view="Default view">1386439e9712b590bd8ff0021153af0a</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 18:51:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ssid</element>
+            <position>7</position>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 18:51:38</sys_created_on>
+            <sys_id>6f86439e9712b590bd8ff0021153af9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Network Connnection" display_value="Network Connnection" name="x_caci_cisco_ise_staging_table" sys_domain="global" view="Default view">1386439e9712b590bd8ff0021153af0a</sys_ui_section>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 18:51:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Network Connnection</caption>
+            <header>false</header>
+            <name>x_caci_cisco_ise_staging_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 18:51:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1386439e9712b590bd8ff0021153af0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_caci_cisco_ise_staging_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
+            <sys_update_name>sys_ui_section_1386439e9712b590bd8ff0021153af0a</sys_update_name>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 18:51:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

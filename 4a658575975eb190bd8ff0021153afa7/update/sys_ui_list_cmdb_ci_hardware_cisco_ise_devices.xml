@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="cmdb_ci_hardware" version="2" view="cisco_ise_devices">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:45</sys_created_on>
+            <sys_id>742e4fd69752b590bd8ff0021153af5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>7c2e4fd69752b590bd8ff0021153af5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>702e4fd69752b590bd8ff0021153af5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_caci_cisco_ise_session_state</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>742e4fd69752b590bd8ff0021153af5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mac_address</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>782e4fd69752b590bd8ff0021153af5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ip_address</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>7c2e4fd69752b590bd8ff0021153af5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_caci_cisco_ise_endpoint_profile</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>702e4fd69752b590bd8ff0021153af60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_caci_cisco_ise_nmap_os</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>742e4fd69752b590bd8ff0021153af60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_caci_cisco_ise_security_group</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>782e4fd69752b590bd8ff0021153af60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_caci_cisco_ise_authorization_profile</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>7c2e4fd69752b590bd8ff0021153af60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_caci_cisco_ise_posture_status</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>702e4fd69752b590bd8ff0021153af61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_caci_cisco_ise_mdm_registered</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>742e4fd69752b590bd8ff0021153af61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>serial_number</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>782e4fd69752b590bd8ff0021153af61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_caci_cisco_ise_use_case</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>7c2e4fd69752b590bd8ff0021153af61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_caci_cisco_ise_nad_ip</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>702e4fd69752b590bd8ff0021153af62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_caci_cisco_ise_nad_identifier</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>742e4fd69752b590bd8ff0021153af62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_caci_cisco_ise_nad_port</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>782e4fd69752b590bd8ff0021153af62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_caci_cisco_ise_vlan</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>7c2e4fd69752b590bd8ff0021153af62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_caci_cisco_ise_wireless_ssid</element>
+            <list_id display_value="cmdb_ci_hardware" element="NULL" name="cmdb_ci_hardware" parent="NULL" relationship="NULL" sys_domain="global" view="1780857147d27590404f82ae436d43b0">742e4fd69752b590bd8ff0021153af5d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:46</sys_created_on>
+            <sys_id>702e4fd69752b590bd8ff0021153af63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>cmdb_ci_hardware</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-06 19:24:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>742e4fd69752b590bd8ff0021153af5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_hardware</sys_name>
+            <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
+            <sys_update_name>sys_ui_list_cmdb_ci_hardware_cisco_ise_devices</sys_update_name>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-06 19:24:45</sys_updated_on>
+            <sys_user/>
+            <view display_value="Cisco_ise_devices" name="cisco_ise_devices">1780857147d27590404f82ae436d43b0</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

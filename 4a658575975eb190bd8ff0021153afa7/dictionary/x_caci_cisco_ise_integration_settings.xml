@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="04bb0d31979eb190bd8ff0021153af6f" label="Integration Settings" max_length="40" name="x_caci_cisco_ise_integration_settings" type="collection">
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="ERS Node" mandatory="true" max_length="40" name="ers_node" type="string"/>
+        <element label="ERS Password" mandatory="true" max_length="255" name="ers_password" type="password2"/>
+        <element default="9060" label="ERS Port" mandatory="true" max_length="40" name="ers_port" type="string"/>
+        <element default="admin" label="ERS Username" mandatory="true" max_length="40" name="ers_username" type="string"/>
+        <element label="Last Sync" max_length="40" name="last_sync" read_only="true" type="string"/>
+        <element label="MID Server" mandatory="true" max_length="32" name="mid_server" reference="ecc_agent" type="reference"/>
+        <element label="MID Server In Use" max_length="40" name="mid_server_in_use" type="boolean"/>
+        <element label="Mid Server Name" mandatory="true" max_length="40" name="mid_server_name" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element default="ServiceNowApp" label="pxGrid Account Name" mandatory="true" max_length="40" name="pxgrid_account_name" type="string"/>
+        <element label="pxGrid Node" mandatory="true" max_length="40" name="pxgrid_node" type="string"/>
+        <element label="pxGrid Password" max_length="255" name="pxgrid_password" type="password2"/>
+        <element default="8910" label="pxGrid Port" mandatory="true" max_length="40" name="pxgrid_port" type="string"/>
+        <element label="pxGrid Secret" max_length="255" name="pxgrid_secret" type="password2"/>
+        <element label="Status" max_length="255" name="status" read_only="true" type="string"/>
+        <index name="index">
+            <element name="mid_server"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_providers" label="providers" language="en" table="x_caci_cisco_ise_staging_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_providers</element>
+            <help/>
+            <hint/>
+            <label>providers</label>
+            <language>en</language>
+            <name>x_caci_cisco_ise_staging_table</name>
+            <plural>providers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jamie@moderncyber.com</sys_created_by>
+            <sys_created_on>2023-11-04 22:33:50</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>providers</sys_name>
+            <sys_package display_value="Cisco ISE" source="x_caci_cisco_ise">4a658575975eb190bd8ff0021153afa7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cisco ISE">4a658575975eb190bd8ff0021153afa7</sys_scope>
+            <sys_update_name>sys_documentation_x_caci_cisco_ise_staging_table_u_providers_en</sys_update_name>
+            <sys_updated_by>jamie@moderncyber.com</sys_updated_by>
+            <sys_updated_on>2023-11-04 22:33:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
